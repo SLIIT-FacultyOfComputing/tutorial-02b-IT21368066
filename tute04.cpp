@@ -39,7 +39,7 @@ long factorial(int no)
 long nCr(int n, int r)
 {
   long ans;
-ans=factorial(n)/factorial(n-r);
+  ans=factorial(n)/factorial(n-r)*factorial(r);
 
   return ans;
 }
